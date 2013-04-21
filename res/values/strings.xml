@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Space</string> 
+    <string name="empty">Loading images...</string>
+    <string name="noTasks">No tasks</string>
+    <string name="random">Random</string>
+    <string name="correct">Correct</string>
+    
+    <!-- For speak recognition demo -->
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="speak">Speak Now</string>
+        
+    <string name="hello">My custom menu class!\n\n
+        1) Press the menu key.\n
+        2) Touch any menu item.\n
+        3) Enjoy!
+    </string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"                            
+              android:orientation="vertical" 
+              android:gravity="center_vertical|center_horizontal"
+              android:keepScreenOn="true">
+
+    <TableLayout 
+        android:layout_width="fill_parent"        
+        android:layout_height="fill_parent">
+            
+        <TableRow            
+            android:weightSum="100"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+                
+            <EditText
+                android:id="@+id/searchText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"        
+                android:layout_weight="20"/>
+            <ImageButton
+                android:id="@+id/btnSpeak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                        
+                android:src="@android:drawable/ic_btn_speak_now"                       
+                android:ems="10"
+                android:layout_weight="80"
+                android:soundEffectsEnabled="true"/>
+        </TableRow>
+        
+    </TableLayout>                              
+</LinearLayout>
